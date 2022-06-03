@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image:url(bg1.png); background-size: cover">
+	<div class="main">
+		<div class="dopusk">
+			<img style="width: 330px; height: 200px" src="zachetka.png" alt="">
+		</div>
+		<div class="school">
+			<img style="width: 500px" src="school.png" alt="">
+		</div>
+		<img src="player.png" alt="" class="main_player">
+	</div>
+	<!--1 локация-->
+	<div class="Location1">
+	<h6 class="text-light loc1_timeSize"><b>Время: <span class="loc1_timeText">120</span></b></h6>
+		<div class="mx-auto col-3 ">
+			<img class="doska" src="Loc1/doska.png" style="position: absolute; width: 300px" >
+			<h4 class="text p-2 pl-4 text-white" style="position: absolute; width: 300px">Пробный экзамен по математике.</h4>
+		</div>
+		
+		<!--учитель-->
+		<div class="loc1_teacher"></div> 
+
+		<!--парты школьные-->
+		<div class="stol" style="position: absolute; margin-top: 17%; margin-left: 25%">
+			<img src="Loc1/stol.png" style="width: 200px; position: absolute;">
+			<img src="Loc1/stol.png" style="width: 200px; position: absolute; margin-left: 220px">
+			<img src="Loc1/stol.png" style="width: 200px; position: absolute; margin-left: 440px">
+			<img src="Loc1/stol.png" style="width: 200px; position: absolute; margin-left: 660px">			
+		</div>
+		<div class="stols" style="position: absolute; margin-top: 25%; margin-left: 25%">
+			<img src="Loc1/stol.png" style="width: 200px; position: absolute;">
+			<img src="Loc1/stol.png" style="width: 200px; position: absolute;margin-left: 220px">
+			<img src="Loc1/stol.png" style="width: 200px; position: absolute;margin-left: 440px">
+			<img src="Loc1/stol.png" style="width: 200px; position: absolute;margin-left: 660px">			
+		</div>
+		<div class="loc1_talk" >
+			Ответь на вопросы, которые на листочке. У тебя 120 секунд
+		</div>
+		<div class="test">
+			<h3>Правильных ответов: <span class="scoreView">0</span></h3>
+			<div class="box">
+				<h2>1. Формула дискриминанта?</h2>
+				<button class="false">b^2+4ac</button>
+				<button class="true">b^2-4ac</button>
+				<button class="false">4ac-b^3</button>
+			</div>
+			<div class="box">
+				<h2>2. Формула теоремы Пифагора?</h2>
+				<button class="false">a+b=c</button>
+				<button class="false">a^2+c^2=b^2</button>
+				<button class="true">a^2+b^2=c^2</button>
+			</div>
+			<div class="box">
+				<h2>3. Как называется график квадратного уравнения?</h2>
+				<button class="false">Прямая</button>
+				<button class="true">Парабола</button>
+				<button class="false">Гипербола</button>
+			</div>
+			<div class="box">
+				<h2>4. Чему равен корень из 225</h2>
+				<button class="true">15</button>
+				<button class="false">25</button>
+				<button class="false">5</button>
+			</div>
+			<div class="box">
+				<h2>5. Чему равно выражение, если оно под корнем 5^2-(6-10)^2</h2>
+				<button class="false">6</button>
+				<button class="false">9</button>
+				<button class="true">3</button>
+			</div>
+			<div class="box">
+				<h2>6. Чему равен факториал 5?</h2>
+				<button class="true">120</button>
+				<button class="false">15</button>
+				<button class="false">44</button>
+			</div>
+			<div class="box">
+				<h2>7. Чему равна сумма смежных углов?</h2>
+				<button class="false">90°</button>
+				<button class="true">180°</button>
+				<button class="false">120°</button>
+			</div>
+			<div class="box">
+				<h2>8. В окружности построили равнобедренную трапецию ABCD. <br>С углов A и C провели диагонали, нужно найти угол C. Рис. 52</h2>
+				<div style="display: flex ">
+				<img style="width: 600px; height: 500px;" src="mspaint_E02upf9Rz7.png" alt="">
+				<button class="true">110°</button>
+				<button class="false">70°</button>
+				<button class="false">120°</button>
+				</div>
+			</div>
+		</div>
+		<img src="Loc1/player_fall.png" class="loc1_player">
+
+	</div>
+</body>
+<script src="script.js"></script>
+</html>

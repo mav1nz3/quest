@@ -1,0 +1,73 @@
+body{
+	font-family: my-font;
+	color: white;
+	height: 100%;
+}
+.school{
+	position: absolute;
+	top:10%;
+	left: 23%;
+}
+.main_player{
+	position: absolute;
+	top:60%;
+	left: 53%;
+	transition:  0.8s;
+}
+.dopusk{
+	width: 330px; 
+	height: 200px;
+	border: white 2px solid;
+	display: none
+}
+.Location1{
+	width: 1900px;
+	height: 1400px;
+	display: none
+}
+.test{
+	width: 800px;
+	height: 1360px;
+	margin: auto;
+	color: black;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: solid black 1px;
+	background-image: url(old_paper.jpg);
+	display: none;
+}
+.loc1_teacher{
+	height: 100px;
+	width: 80px;
+	margin-left: 55%; 
+	position: absolute; 
+	margin-top: 10%;
+    background-image: url(Loc1/female_stand.png);
+    background-size: 100% 100%;
+}
+.loc1_player{
+	left:30%; top:40%; position: absolute;
+}
+.loc1_timeSize{
+	font-size: 30px
+}
+.loc1_talk{
+	position: absolute;
+	width: 300px;
+	margin-left: 56%;
+	display: none;
+	background-image: url(Loc1/talk.png);
+	background-size: 100% 100%;
+	color: black;
+	padding: 50px;
+}
+.true{
+	text-decoration: none;
+	border: solid black 1px;
+	border-radius: 10px
+}
+.false{
+	text-decoration: none;
+	border: solid black 1px;
+	border-radius: 10px
+}
